@@ -1,0 +1,29 @@
+@import '../node_modules/normalize-scss/sass/normalize';
+@include normalize();
+
+//Abstract
+@import 'abstract/constants';
+@import 'abstract/mixins';
+@import 'abstract/placeholders';
+
+//Base
+@import 'base/base';
+@import 'base/buttons';
+@import 'base/icons';
+@import 'base/hamburger';
+
+//Layots
+@import 'layouts/wrapper';
+@import 'layouts/header';
+@import 'layouts/columns';
+
+//Components
+@import 'components/our-friends';
+@import 'components/not-only';
+@import 'components/navigation';
+@import 'components/logo';
+@import 'components/about';
+@import 'components/help';
+@import 'components/donation';
+@import 'components/footer';
+

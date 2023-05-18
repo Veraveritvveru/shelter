@@ -1,0 +1,18 @@
+h1 {
+   color: $color-primary;
+   @extend %font-add;
+   @include font(3.2rem, 110%);
+   text-decoration: none;
+   cursor: pointer;
+   letter-spacing: 0.06em;
+
+   margin: 0 0 10px 0;
+}
+
+
+.logo__description {
+   cursor: pointer;
+   color: $color-heading-light;
+   @include font(1.3rem, 15px);
+   letter-spacing: 0.1em;
+}

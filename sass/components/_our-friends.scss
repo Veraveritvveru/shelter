@@ -1,0 +1,40 @@
+.our-friends {
+   background-color: $color-background;
+   padding-bottom: 100px;
+   
+   &__title {
+      max-width: 400px;
+      text-align: center;
+      margin: auto;
+      padding-top: 80px;
+      margin-bottom: 60px;
+}
+}
+
+.pet-card {
+   max-width: 270px;
+   background-color: $color-nav-light;
+   &:first-child {
+      margin-left: 105px;
+   }
+   &:last-child {
+      margin-right: 105px;
+   }
+
+   .button {
+      display: block;
+      margin-left: 41.5px;
+      margin-bottom: 30px;
+   }
+}
+
+.pet-card__title {
+   text-align: center;
+   margin: 30px 0;
+}
+
+.our-friends-button {
+   text-align: center;
+   margin-top: 60px;
+
+}

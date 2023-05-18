@@ -1,0 +1,38 @@
+.help {
+   background-color: $color-heading-light;
+}
+
+.help__title {
+   max-width: 308px;
+   text-align: center;
+   margin: auto;
+   padding-top: 80px;
+   margin-bottom: 60px;
+}
+
+.help__content1 {
+   display: flex;
+   justify-content: space-between;
+   padding-left: 87px;
+   padding-right: 87px;
+
+}
+
+.help__content2 {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 66px 171px 100px 171px
+}
+
+.help__item {
+   text-align: center;
+}
+
+
+/* 
+display: flex;
+gap: 55px 120px;
+flex-wrap: wrap;
+justify-content: center;
+*/

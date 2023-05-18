@@ -1,0 +1,33 @@
+.about {
+   background: $color-heading-light;
+
+   &__wrapper {
+      display: flex;
+      align-items: center;
+   }
+
+   &__image {
+      margin: 80px 0 100px 175px
+   }
+
+   &__content {
+      max-width: 430px;
+      margin-left: 120px;
+   }
+
+   &__title {
+      max-width: 370px;
+   }
+
+   &__text {
+      margin: 25px 0;
+      color: $color-text-dark;
+      max-width: 430px;
+
+      @include font(1.5rem, 160%);
+      &:last-child {
+         margin: 0;
+      }
+   }
+
+}

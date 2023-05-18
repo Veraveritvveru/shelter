@@ -1,0 +1,27 @@
+.navigation {
+   display: flex;
+   color: $color-text-light;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 160%;
+}
+
+.navigation__link {
+   list-style: none;
+   padding: 0 35px 0 0;
+   cursor: pointer;
+   @extend %transition;
+   &:active {
+      text-decoration: underline $color-primary;
+   }
+}
+
+.navigation__link:last-child {
+   padding: 0;
+}
+
+.header__navigation {
+   @include media-mobile {
+      display: none;
+   }
+}

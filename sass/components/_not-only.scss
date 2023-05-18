@@ -1,0 +1,21 @@
+.not-only {
+   padding-top: 58px;
+}
+
+.not-only__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.not-only__title {
+   max-width: 310px;
+   margin: 0;
+}
+
+.not-only__text {
+   max-width: 460px;
+   color: $color-text-light;
+   @include font(1.5rem, 160%);
+   margin: 42px 0;
+}
